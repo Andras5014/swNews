@@ -1,0 +1,18 @@
+app:
+  name: test_app
+  mode: dev
+
+server:
+  port: 8081
+  prefix: /api
+
+log:
+  level: warn
+  path: /web_app/logs
+  filename: web_app.log
+  max_size: 20
+  max_age: 30
+  max_backups: 5
+
+
+
